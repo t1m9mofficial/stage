@@ -1,0 +1,108 @@
+.switch-style {
+    background: #ffffff;
+    -webkit-backface-visibility: hidden;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px 18px;
+    position: fixed;
+    z-index: 1000;
+    top: 150px;
+    right: -205px;
+    width: 205px;
+    -webkit-transition: right 0.3s ease-in-out;
+    -moz-transition: right 0.3s ease-in-out;
+    -o-transition: right 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
+}
+
+.switch-style.active {
+    right: 0;
+}
+
+.switch-style .switch-style-toggle {
+    background: #ffffff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-box-shadow: -9px 5px 20px 0 rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: -9px 5px 20px 0 rgba(0, 0, 0, 0.07);
+    box-shadow: -9px 5px 20px 0 rgba(0, 0, 0, 0.07);
+    position: absolute;
+    top: 30px;
+    right: 205px;
+    width: 40px;
+    height: 40px;
+}
+
+.switch-style .switch-style-toggle:hover {
+    cursor: pointer;
+}
+
+.switch-style .switch-style-toggle i {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.switch-style h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.switch-style ul {
+    margin-left: 0;
+}
+
+.switch-style ul > li {
+    padding-right: 8px;
+    padding-left: 0;
+}
+
+.switch-style ul > li:last-child {
+    padding-right: 0;
+}
+
+.switch-style ul > li > a {
+    border-radius: 2px;
+    display: block;
+    width: 35px;
+    height: 30px;
+}
+
+.switch-style ul > li > a.blue {
+    background: #016cff;
+}
+
+.switch-style ul > li > a.blue2 {
+    background: #2856b6;
+}
+
+.switch-style ul > li > a.green {
+    background: #53d769;
+}
+
+.switch-style ul > li > a.green2 {
+    background: #01a093;
+}
+
+.switch-style ul > li > a.orange {
+    background: #ff4f00;
+}
+
+.switch-style ul > li > a.pink {
+    background: #ff4081;
+}
+
+.switch-style ul > li > a.purple {
+    background: #9c37cb;
+}
+
+.switch-style ul > li > a.red {
+    background: #f44236;
+}
+
+.switch-style p {
+    margin-top: 6px;
+}
